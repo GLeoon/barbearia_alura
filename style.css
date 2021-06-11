@@ -7,16 +7,27 @@
 
 body {
 	background: #d0cde2;
-	font: 400 16px Roboto, sans-serif;
+	font: 400 14px Roboto, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	height: 100%;
 	width: 100%;
 }
+
+.title{
+	color: white;
+	width: 30%;
+	top: 4px;  
+	bottom: 0px;
+	left: 50px;
+	
+}
+
 .header{
 	text-align: end;
-	background-color: #0d1f42;
+	background-color: #102858;
 	padding: 16px;
 	width: 100%;
+	
 }
 
 .header__link{
@@ -27,11 +38,19 @@ body {
 }
 
 .header__link:hover{
-	background-color: #122e6b;
+	background-color: #24468f;
 }
 
 .img_logo{
-	width: 20px;
+	position: absolute;
+	width: 50px;
+	top: 4px;  
+	bottom: 0px;
+	left: 10px;
+	
+	/* border: 1px solid red; */
+	background-color: rgba(255, 0, 0, 0.1);
+
 }
 
 #banner {
@@ -66,7 +85,7 @@ em strong {
 }
 
 .beneficios {
-	background: #635757;
+	background: #c0c1ce;
 	padding: 20px;
 }
 
